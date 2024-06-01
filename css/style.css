@@ -288,10 +288,14 @@ h6 {
 .social-media .social-media-item.telegram img {
     filter: invert(34%) sepia(56%) saturate(3243%) hue-rotate(202deg) brightness(98%) contrast(93%);
 } */
+@media screen and (max-width: 1240px) {
+    .app-conatiner {
+        padding: 15px 50px;
+    }
+}
 @media screen and (max-width: 1000px) {
     .app-conatiner {
         flex-direction: column;
-        padding: 15px;
     }
 }
 @media screen and (max-width: 800px) {
